@@ -425,6 +425,8 @@
 }
 
 .grid-4 {
+  -ms-grid-columns: 1.5fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
