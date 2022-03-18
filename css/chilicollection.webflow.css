@@ -1,3 +1,8 @@
+a:not(.nav-link-2):not(.button){
+  text-decoration: none;
+  color: #e33333;
+  font-weight: bold;
+}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -425,8 +430,6 @@
 }
 
 .grid-4 {
-  -ms-grid-columns: 1.5fr 1fr;
-  grid-template-columns: 1.5fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
